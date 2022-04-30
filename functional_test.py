@@ -17,7 +17,7 @@ class NewVisitorTest(unittest.TestCase):
         ## Edith has heard about a cool new website that she can get ebooks for free!
         ## She checks out the home page
         time.sleep(1)
-        self.assertIn('Django', self.browser.title,
+        self.assertIn('Free Ebooks Every Day', self.browser.title,
                         f'Current title is {self.browser.title}')
 
         self.fail('Finish the remaining test')
